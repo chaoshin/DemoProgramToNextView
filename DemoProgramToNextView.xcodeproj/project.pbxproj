@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A001E569208CC4E700E019B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001E568208CC4E700E019B3 /* AppDelegate.swift */; };
-		A001E56B208CC4E700E019B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001E56A208CC4E700E019B3 /* ViewController.swift */; };
 		A001E56E208CC4E700E019B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001E56C208CC4E700E019B3 /* Main.storyboard */; };
 		A001E570208CC4E800E019B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A001E56F208CC4E800E019B3 /* Assets.xcassets */; };
 		A001E573208CC4E800E019B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A001E571208CC4E800E019B3 /* LaunchScreen.storyboard */; };
+		A001E57B208CC9B500E019B3 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001E57A208CC9B500E019B3 /* Page1ViewController.swift */; };
+		A001E57D208CC9BF00E019B3 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A001E57C208CC9BF00E019B3 /* Page2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A001E565208CC4E700E019B3 /* DemoProgramToNextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProgramToNextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A001E568208CC4E700E019B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A001E56A208CC4E700E019B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A001E56D208CC4E700E019B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A001E56F208CC4E800E019B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A001E572208CC4E800E019B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A001E574208CC4E800E019B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A001E57A208CC9B500E019B3 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		A001E57C208CC9BF00E019B3 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				A001E568208CC4E700E019B3 /* AppDelegate.swift */,
-				A001E56A208CC4E700E019B3 /* ViewController.swift */,
+				A001E57A208CC9B500E019B3 /* Page1ViewController.swift */,
+				A001E57C208CC9BF00E019B3 /* Page2ViewController.swift */,
 				A001E56C208CC4E700E019B3 /* Main.storyboard */,
 				A001E56F208CC4E800E019B3 /* Assets.xcassets */,
 				A001E571208CC4E800E019B3 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A001E56B208CC4E700E019B3 /* ViewController.swift in Sources */,
+				A001E57B208CC9B500E019B3 /* Page1ViewController.swift in Sources */,
+				A001E57D208CC9BF00E019B3 /* Page2ViewController.swift in Sources */,
 				A001E569208CC4E700E019B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4GPCCYM3K;
 				INFOPLIST_FILE = DemoProgramToNextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4GPCCYM3K;
 				INFOPLIST_FILE = DemoProgramToNextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
